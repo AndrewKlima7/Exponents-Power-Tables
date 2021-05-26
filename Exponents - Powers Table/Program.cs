@@ -12,7 +12,7 @@ namespace Exponents___Powers_Table
                 bool validNum = false;
                 while (validNum == false)
                 {
-                    Console.WriteLine("Please enter an integer: ");
+                    Console.Write("Please enter an integer: ");
                     int userNum = int.Parse(Console.ReadLine());
                     int square = userNum;
                     int cubed = userNum;
@@ -49,11 +49,13 @@ namespace Exponents___Powers_Table
 
         public static bool GoAgain()
         {
-            Console.WriteLine("Would you like to continue? Y/N ");
+            Console.Write("Would you like to continue? Y/N ");
             string input = Console.ReadLine();
 
             if(input.ToUpper() == "Y" || input.ToUpper() == "YES")
             {
+                Console.WriteLine("");
+                Console.WriteLine("");
                 return true;
             } 
             else if(input.ToUpper() == "N" || input.ToUpper() == "NO")
@@ -62,7 +64,7 @@ namespace Exponents___Powers_Table
             }
             else
             {
-                Console.WriteLine("Must input a valid response. Y/N: ");
+                Console.WriteLine("Must input a valid response.");
                 return GoAgain();
             }
         }
