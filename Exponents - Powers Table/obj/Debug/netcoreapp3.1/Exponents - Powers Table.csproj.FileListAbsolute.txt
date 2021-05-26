@@ -1,0 +1,12 @@
+C:\Users\Andre\source\repos\Exponents - Powers Table\Exponents - Powers Table\bin\Debug\netcoreapp3.1\Exponents - Powers Table.exe
+C:\Users\Andre\source\repos\Exponents - Powers Table\Exponents - Powers Table\bin\Debug\netcoreapp3.1\Exponents - Powers Table.deps.json
+C:\Users\Andre\source\repos\Exponents - Powers Table\Exponents - Powers Table\bin\Debug\netcoreapp3.1\Exponents - Powers Table.runtimeconfig.json
+C:\Users\Andre\source\repos\Exponents - Powers Table\Exponents - Powers Table\bin\Debug\netcoreapp3.1\Exponents - Powers Table.runtimeconfig.dev.json
+C:\Users\Andre\source\repos\Exponents - Powers Table\Exponents - Powers Table\bin\Debug\netcoreapp3.1\Exponents - Powers Table.dll
+C:\Users\Andre\source\repos\Exponents - Powers Table\Exponents - Powers Table\bin\Debug\netcoreapp3.1\Exponents - Powers Table.pdb
+C:\Users\Andre\source\repos\Exponents - Powers Table\Exponents - Powers Table\obj\Debug\netcoreapp3.1\Exponents - Powers Table.AssemblyInfoInputs.cache
+C:\Users\Andre\source\repos\Exponents - Powers Table\Exponents - Powers Table\obj\Debug\netcoreapp3.1\Exponents - Powers Table.AssemblyInfo.cs
+C:\Users\Andre\source\repos\Exponents - Powers Table\Exponents - Powers Table\obj\Debug\netcoreapp3.1\Exponents - Powers Table.csproj.CoreCompileInputs.cache
+C:\Users\Andre\source\repos\Exponents - Powers Table\Exponents - Powers Table\obj\Debug\netcoreapp3.1\Exponents - Powers Table.dll
+C:\Users\Andre\source\repos\Exponents - Powers Table\Exponents - Powers Table\obj\Debug\netcoreapp3.1\Exponents - Powers Table.pdb
+C:\Users\Andre\source\repos\Exponents - Powers Table\Exponents - Powers Table\obj\Debug\netcoreapp3.1\Exponents - Powers Table.genruntimeconfig.cache
