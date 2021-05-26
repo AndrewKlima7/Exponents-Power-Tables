@@ -12,38 +12,12 @@ namespace Exponents___Powers_Table
                 bool validNum = false;
                 while (validNum == false)
                 {
-                    Console.Write("Please enter an integer: ");
-                    int userNum = int.Parse(Console.ReadLine());
-                    int square = userNum;
-                    int cubed = userNum;
-                    int i;
-
-                    if (userNum < 1 || userNum > 1289)
-                    {
-                        Console.WriteLine("Must be a postive number above zero. Try again");
-                        validNum = false;
-                    } 
-                    else
-                    {
-                        Console.WriteLine("");
-                        Console.WriteLine("");
-                        Console.WriteLine("Number \t \t squared \t cubed");
-                        Console.WriteLine("========================================");
-                        for (i = 1; i <= userNum; i++)
-                        {
-                            square = i * i;
-                            cubed = i * i * i;
-                            Console.WriteLine($"  {i} \t  \t    {square} \t \t   {cubed}");
-                        }
-                        Console.WriteLine("");
-                        Console.WriteLine("");
-                        validNum = true;
-                    }
+                    validNum = GetNum();
                 }
 
                 again = GoAgain();
             }
-            
+
 
         }
 
@@ -52,13 +26,13 @@ namespace Exponents___Powers_Table
             Console.Write("Would you like to continue? Y/N ");
             string input = Console.ReadLine();
 
-            if(input.ToUpper() == "Y" || input.ToUpper() == "YES")
+            if (input.ToUpper() == "Y" || input.ToUpper() == "YES")
             {
                 Console.WriteLine("");
                 Console.WriteLine("");
                 return true;
-            } 
-            else if(input.ToUpper() == "N" || input.ToUpper() == "NO")
+            }
+            else if (input.ToUpper() == "N" || input.ToUpper() == "NO")
             {
                 return false;
             }
@@ -66,6 +40,39 @@ namespace Exponents___Powers_Table
             {
                 Console.WriteLine("Must input a valid response.");
                 return GoAgain();
+            }
+        }
+
+        public static bool GetNum()
+        {
+            Console.Write("Please enter an integer: ");
+            int userNum = int.Parse(Console.ReadLine());
+            int square = userNum;
+            int cubed = userNum;
+            int i;
+
+            if (userNum < 1 || userNum > 1289)
+            {
+                Console.WriteLine("Must be a postive number above zero. Try again");
+                Console.WriteLine("");
+                Console.WriteLine("");
+                return false;
+            }
+            else
+            {
+                Console.WriteLine("");
+                Console.WriteLine("");
+                Console.WriteLine("Number \t \t squared \t cubed");
+                Console.WriteLine("========================================");
+                for (i = 1; i <= userNum; i++)
+                {
+                    square = i * i;
+                    cubed = i * i * i;
+                    Console.WriteLine($"  {i} \t  \t    {square} \t \t   {cubed}");
+                }
+                Console.WriteLine("");
+                Console.WriteLine("");
+                return true;
             }
         }
     }
